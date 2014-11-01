@@ -9,7 +9,7 @@ body {
 	background-color:#ffffff; 
 	margin:0 auto; 
 	padding:0; 
-	background-color:green; 
+	background-color:black; 
 }
 
 .container{ 
@@ -22,15 +22,16 @@ body {
 .menucontainer {
 	width:auto; 
 	margin:0 auto; 
-	padding:0 0 0 50px; 
+	padding:0 0 0 0px; 
+	margin-left: -20px;
 	float:left; 
-	height:120px;
+	height:220px;
 }
 
 .menu { 
 	width:auto; 
 	padding:5px 20px; 
-	float:left; f
+	float:left; 
 	font-size:75%; 
 	font-size:12px; 
 	text-align:left!important; 
@@ -58,6 +59,8 @@ ul.dropdown {
 	position: relative;  
 	z-index: 597; 
 	float: left; 
+	padding-top: 200px;
+	padding-left: -10px;
 }
 
 ul.dropdown li {  
@@ -69,7 +72,7 @@ ul.dropdown li {
 	font-family: Arial;  
 	font-size: 12px;  
 	font-style: normal;
-	text-align:left;   
+	text-align:center;   
 	-webkit-font-smoothing: antialiased;
 }
 
