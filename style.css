@@ -127,14 +127,14 @@ tr,.imagecontainer {
 }
 
 #bossladies {
-	position: fixed;
+	position:absolute;
 	z-index: 600;
-	margin-left: -110px;
 	margin-top: 230px;
+	margin-left: -240px;
 }
 
 #bossladies:hover {
-	content: url('http://i.imgur.com/kvlN0Qm.jpg');
+	content: url('http://i.imgur.com/ALLs5ud.jpg');
 	opacity: 1.0;
 }
 
