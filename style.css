@@ -126,3 +126,16 @@ tr,.imagecontainer {
 	border:0; 
 }
 
+#bossladies {
+	position: fixed;
+	z-index: 600;
+	margin-left: -100px;
+	margin-top: 230px;
+}
+
+#bossladies:hover {
+content: url('http://i.imgur.com/kvlN0Qm.jpg');
+opacity: 1.0;
+}
+
+
