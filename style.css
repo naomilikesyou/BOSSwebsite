@@ -151,14 +151,15 @@ tr,.imagecontainer {
 }
 
 h2, #abouttype {
-	font-size: 30px;
+	text-align: center;
+	font-size: 200%;
 }
 
 p, #abouttype {
-	font-size: 12px;
+	font-size: 100%;
 }
 
 h3, #abouttype {
-	font-size: 20px;
+	font-size: 150%;
 }
 
