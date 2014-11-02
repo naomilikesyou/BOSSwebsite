@@ -129,13 +129,31 @@ tr,.imagecontainer {
 #bossladies {
 	position: fixed;
 	z-index: 600;
-	margin-left: -100px;
+	margin-left: -110px;
 	margin-top: 230px;
 }
 
 #bossladies:hover {
-content: url('http://i.imgur.com/kvlN0Qm.jpg');
-opacity: 1.0;
+	content: url('http://i.imgur.com/kvlN0Qm.jpg');
+	opacity: 1.0;
 }
 
+#abouttype {
+	text-decoration:none;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+}
+
+h2, #abouttype {
+	font-size: 30px;
+}
+
+p, #abouttype {
+	font-size: 12px;
+}
+
+h3, #abouttype {
+	font-size: 20px;
+}
 
