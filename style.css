@@ -131,6 +131,7 @@ tr,.imagecontainer {
 	z-index: 600;
 	margin-top: 230px;
 	margin-left: -240px;
+	padding-bottom: 0px;
 }
 
 #bossladies:hover {
@@ -139,10 +140,14 @@ tr,.imagecontainer {
 }
 
 #abouttype {
+	position:absolute;
+	margin-top:820px;
 	text-decoration:none;
 	font-family: Arial;
-	font-size: 12px;
 	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
 }
 
 h2, #abouttype {
