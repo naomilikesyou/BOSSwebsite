@@ -23,7 +23,8 @@ body {
 	width:auto; 
 	margin:0 auto; 
 	padding:0 0 0 0px; 
-	margin-left: -20px;
+	margin-left: -60px;
+	margin-top: 50px;
 	float:left; 
 	height:220px;
 }
@@ -59,8 +60,7 @@ ul.dropdown {
 	position: relative;  
 	z-index: 597; 
 	float: left; 
-	padding-top: 200px;
-	padding-left: -10px;
+	padding-top: 180px;
 }
 
 ul.dropdown li {  
@@ -70,7 +70,7 @@ ul.dropdown li {
 	vertical-align: middle;  
 	width:180px;  
 	font-family: Arial;  
-	font-size: 12px;  
+	font-size: #px;  
 	font-style: normal;
 	text-align:center;   
 	-webkit-font-smoothing: antialiased;
