@@ -68,6 +68,14 @@ body {
   height: 433px!important;
 }
 
+ul li ul a {
+	color: black;
+	display: none;
+}
+
+nav ul li:hover {
+		display: block;
+	}
 
 ul.dropdown, ul.dropdown li, ul.dropdown ul {  
 	list-style: none;  
