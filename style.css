@@ -2,7 +2,7 @@ body {
 	margin-left: 0px; 
 	margin-top: 0px; 
 	margin-right: 0px; 
-	margin-bottom: 0px; 
+	margin-bottom: 0px;
 }
 
 .wrapper{ 
@@ -57,7 +57,7 @@ body {
   height: 200%;
 }
 
-.imagecontainer img {
+.imagecontainer{
   position: fixed; 
   top: 200px; 
   left: 0; 
@@ -66,6 +66,8 @@ body {
   margin: auto; 
   width: 800px;
   height: 433px!important;
+  background: #ffffff url("images/BOSSlogo.jpg") no repeat;
+  background-attachment: fixed;
 }
 
 ul li ul a {
@@ -114,7 +116,7 @@ a:visited {
 	text-decoration:none;
 }
 
-a:hover {
+a:hover .dropdown {
 	text-decoration:none; 
 	font-family:Arial;
 	font-size: 12px;
@@ -142,7 +144,7 @@ tr,.imagecontainer {
 }
 
 #bossladies:hover {
-	content: url('http://i.imgur.com/ALLs5ud.jpg');
+	content: url('images/aboutafter.jpg');
 	opacity: 1.0;
 }
 
@@ -155,9 +157,17 @@ tr,.imagecontainer {
 	width:100%;
 	background-color: black;
 	color:white;
+	padding-bottom: 15px;
 }
 
-h2, #abouttype {
+#eboard {
+	position:absolute;
+	margin-top: 1465px;
+	width: 100%;
+	padding-top: 5px;
+}
+
+h2, #abouttype, #giving{
 	text-align: center;
 	font-size: 200%;
 }
@@ -168,5 +178,16 @@ p, #abouttype {
 
 h3, #abouttype {
 	font-size: 150%;
+}
+
+#giving {
+	position: absolute;
+	margin-top: 2318px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
 }
 
