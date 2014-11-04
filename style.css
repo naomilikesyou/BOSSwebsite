@@ -71,7 +71,7 @@ body {
 ul li ul a {
 	color: black;
 	font-size: 10px;
-	display: none;
+	/*display: none;*/
 }
 
 
@@ -136,7 +136,7 @@ tr,.imagecontainer {
 #bossladies {
 	position:absolute;
 	z-index: 600;
-	margin-top: 230px;
+	margin-top: 280px;
 	margin-left: -240px;
 	padding-bottom: 0px;
 }
@@ -148,7 +148,7 @@ tr,.imagecontainer {
 
 #abouttype {
 	position:absolute;
-	margin-top:820px;
+	margin-top:850px;
 	text-decoration:none;
 	font-family: Arial;
 	font-style: normal;
