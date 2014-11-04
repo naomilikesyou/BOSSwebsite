@@ -70,12 +70,10 @@ body {
 
 ul li ul a {
 	color: black;
+	font-size: 10px;
 	display: none;
 }
 
-nav ul li:hover {
-		display: block;
-	}
 
 ul.dropdown, ul.dropdown li, ul.dropdown ul {  
 	list-style: none;  
@@ -121,6 +119,7 @@ a:hover {
 	font-family:Arial;
 	font-size: 12px;
 	font-style: normal;
+	display: block;
 }
 
 a:active {
