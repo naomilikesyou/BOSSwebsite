@@ -172,11 +172,11 @@ h2, #abouttype, #giving{
 	font-size: 200%;
 }
 
-p, #abouttype {
+p, #abouttype, #giving {
 	font-size: 100%;
 }
 
-h3, #abouttype {
+h3, #abouttype, #giving {
 	font-size: 150%;
 }
 
@@ -191,3 +191,35 @@ h3, #abouttype {
 	color:white;
 }
 
+#wellness {
+	position: absolute;
+	margin-top: 2600px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
+
+#cultural {
+	position: absolute;
+	margin-top: 3000px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
+
+#political {
+	position: absolute;
+	margin-top: 3400px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
