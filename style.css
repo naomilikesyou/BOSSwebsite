@@ -116,7 +116,7 @@ a:visited {
 	text-decoration:none;
 }
 
-a:hover .dropdown {
+.menucontainer a:hover {
 	text-decoration:none; 
 	font-family:Arial;
 	font-size: 12px;
