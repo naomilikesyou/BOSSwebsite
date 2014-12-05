@@ -1,0 +1,225 @@
+body { 
+	margin-left: 0px; 
+	margin-top: 0px; 
+	margin-right: 0px; 
+	margin-bottom: 0px;
+}
+
+.wrapper{ 
+	background-color:#ffffff; 
+	margin:0 auto; 
+	padding:0; 
+	background-color:black; 
+}
+
+.container{ 
+	width:800px; 
+	height:433px; 
+	margin:0 auto; 
+	float:left; 
+}
+
+.menucontainer {
+	width:auto; 
+	margin:0 auto; 
+	padding:0 0 0 0px; 
+	margin-left: -60px;
+	margin-top: 0%;
+	float:left; 
+	height:220px; 
+}
+
+.menu { 
+	width:auto; 
+	padding:5px 20px; 
+	float:left; 
+	font-size:75%; 
+	font-size:12px; 
+	text-align:left!important; 
+	height:40px; 
+	z-index:2!important;
+	-webkit-font-smoothing: antialiased;
+}
+
+.imagecontainer{ 
+	width:800px; 
+	text-align:center; 
+	height:433px!important; 
+	float:left; 
+	vertical-align:middle!important;
+}
+
+.imagecontainer{
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+.imagecontainer{
+  position: fixed; 
+  top: 200px; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  width: 800px;
+  height: 433px!important;
+  background: #ffffff url("images/BOSSlogo.jpg") no repeat;
+  background-attachment: fixed;
+}
+
+ul li ul a {
+	color: black;
+	font-size: 10px;
+	/*display: none;*/
+}
+
+
+ul.dropdown, ul.dropdown li, ul.dropdown ul {  
+	list-style: none;  
+	margin: 0;  
+	padding: 0; 
+	text-decoration:none!important; 
+}
+
+ul.dropdown {  
+	position: relative;  
+	z-index: 597; 
+	float: left; 
+	padding-top: 180px;
+}
+
+ul.dropdown li {  
+	float: left;  
+	min-height: 1px;  
+	line-height: 1.3em;  
+	vertical-align: middle;  
+	width:180px;  
+	font-family: Arial;  
+	font-size: #px;  
+	font-style: normal;
+	text-align:center;   
+	-webkit-font-smoothing: antialiased;
+}
+
+ul.dropdown li div { 
+	width:100px; 
+}
+
+a:link {
+	text-decoration:none;
+}
+
+a:visited {
+	text-decoration:none;
+}
+
+.menucontainer a:hover {
+	text-decoration:none; 
+	font-family:Arial;
+	font-size: 12px;
+	font-style: normal;
+	display: block;
+}
+
+a:active {
+	text-decoration:none;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+}
+
+tr,.imagecontainer { 
+	border:0; 
+}
+
+#bossladies {
+	position:absolute;
+	z-index: 600;
+	margin-top: 280px;
+	margin-left: -240px;
+	padding-bottom: 0px;
+}
+
+#bossladies:hover {
+	content: url('images/aboutafter.jpg');
+	opacity: 1.0;
+}
+
+#abouttype {
+	position:absolute;
+	margin-top:850px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+	padding-bottom: 15px;
+}
+
+#eboard {
+	position:absolute;
+	margin-top: 1465px;
+	width: 100%;
+	padding-top: 5px;
+}
+
+h2, #abouttype, #giving{
+	text-align: center;
+	font-size: 200%;
+}
+
+p, #abouttype, #giving {
+	font-size: 100%;
+}
+
+h3, #abouttype, #giving {
+	font-size: 150%;
+}
+
+#giving {
+	position: absolute;
+	margin-top: 2318px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
+
+#wellness {
+	position: absolute;
+	margin-top: 2600px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
+
+#cultural {
+	position: absolute;
+	margin-top: 3000px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
+
+#political {
+	position: absolute;
+	margin-top: 3400px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
