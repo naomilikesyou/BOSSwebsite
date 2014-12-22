@@ -1,0 +1,176 @@
+
+
+/* navbar start */
+.navbar { 
+	margin-top: 110px;
+	background-color: white;
+	border-color: white;
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+	padding: center;
+}
+
+.navbar-nav > li{
+	padding-left:30px;
+	padding-right:30px;
+}
+.dropdown {
+	text-align: center;
+	background-color: white;
+	font-size: 18px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+.dropdown-menu {
+ 	text-align: center;
+ 	border-color: white;
+ }
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: white;
+  }
+
+ul.nav a:hover { color: gray!important; }
+
+.navbar-default .navbar-nav > li > a {
+	color: black; 
+    }
+
+ .dropdown-menu > li > a:hover,
+ .dropdown-menu > li > a:focus {
+ 	color: #262626;
+	text-decoration: none;
+	font-size: 16px;
+   }
+
+   @media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+/* navbar end */
+
+/*a:link {
+	text-decoration:none;
+}
+
+a:visited {
+	text-decoration:none;
+}
+
+.menucontainer a:hover {
+	text-decoration:none; 
+	font-family:Arial;
+	font-size: 12px;
+	font-style: normal;
+	display: block;
+}
+
+a:active {
+	text-decoration:none;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+}
+
+tr,.imagecontainer { 
+	border:0; 
+}
+*/
+#bossladies {
+	position:absolute;
+	z-index: 600;
+	margin-top: 110px;
+	margin-left: -240px;
+	padding-bottom: 0px;
+}
+
+#bossladies:hover {
+	content: url('images/aboutafter.jpg');
+	opacity: 1.0;
+}
+
+h2, #abouttype, #giving, #wellness, #cultural, #political{
+	text-align: center;
+	font-size: 200%;
+}
+
+p, #abouttype, #giving, #wellness, #cultural, #political {
+	font-size: 100%;
+}
+
+h3, #abouttype, #giving, #wellness, #cultural, #political {
+	font-size: 150%;
+}
+#abouttype {
+	position:absolute;
+	margin-top:700px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+	padding-bottom: 15px;
+}
+
+#eboard {
+	position:absolute;
+	margin-top: 1245px;
+	width: 100%;
+	padding-top: 5px;
+}
+
+#giving {
+	position: absolute;
+	margin-top: 2100px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
+
+#wellness {
+	position: absolute;
+	margin-top: 2600px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
+
+#cultural {
+	position: absolute;
+	margin-top: 3000px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
+
+#political {
+	position: absolute;
+	margin-top: 3400px;
+	text-decoration:none;
+	font-family: Arial;
+	font-style: normal;
+	width:100%;
+	background-color: black;
+	color:white;
+}
